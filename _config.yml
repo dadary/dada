@@ -11,3 +11,4 @@ collections:
 theme: jekyll-theme-cayman
 description: New Media Student organization
 google_analytics: UA-77263046-2
+exclude: ['README.md']
