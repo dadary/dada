@@ -16,3 +16,5 @@ At our home building at Miestentie 3 we host monthly DADA Night get-togethers, r
 # Events
 
 DADA produces yearly two larger events: Ääniaalto Sound Festival during winter and DASH New Media Festival at the end of May. Throughout the year we host Cryptoparties, Alumni afterworks, Sitsit in our own style, we celebrate Vappu together and as a culmination of the year we organise the legendary Media Lab Xmas party.
+
+{% include image.html url="/assets/images/dada-representatives.jpg" description="DADA board 2017" %}
