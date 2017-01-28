@@ -1,5 +1,5 @@
 ---
-title: DADA
+title: DADA ry
 timezone: Europe/Helsinki
 collections:
   posts:
@@ -9,6 +9,5 @@ collections:
     title: Uploads
     output: true
 theme: jekyll-theme-cayman
-title: DADA ry
 description: New Media Student organization
 google_analytics: UA-77263046-2
