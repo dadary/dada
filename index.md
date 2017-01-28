@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+# About
 
-You can use the [editor on GitHub](https://github.com/dadary/dada.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Aalto Media Lab Student Association DADA Ry is a new student association founded by students of the Media Lab Helsinki of Aalto University.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+DADA was founded to support and organise events related to the interests of Media Lab students in a broad sense, to support the members’ professional development and networking during and after studies. The association also aims to promote the fields of study in the Media Lab within the Aalto University and broader society.
 
-### Markdown
+# Activites
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+At our home building at Miestentie 3 we host monthly DADA Night get-togethers, regular Games clubs, we run a SnackBar and take part in improving the general comfort and amenities of our premises. DADA collaborates with companies related to design and media industry and we conduct regular company visits. DADA keeps an eye on our newcomers too, and organises tutoring in collaboration with the department.
 
-```markdown
-Syntax highlighted code block
+# Events
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dadary/dada.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+DADA produces yearly two larger events: Ääniaalto Sound Festival during winter and DASH New Media Festival at the end of May. Throughout the year we host Cryptoparties, Alumni afterworks, Sitsit in our own style, we celebrate Vappu together and as a culmination of the year we organise the legendary Media Lab Xmas party.
