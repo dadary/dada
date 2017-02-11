@@ -62,12 +62,11 @@ $main-gray: #444545;
     font-family: 'Lovelo', sans-serif;
   }
   .btn{
-    border-color: $main-gray !important;
+    border: none;
     text-transform: uppercase;
   }
   .btn:hover{
     color: $hover-pink !important;
-    border-color: $hover-pink !important;
   }
 }
 /* Body styles */
@@ -83,6 +82,9 @@ $main-gray: #444545;
   }
   p{
     color: $main-gray;
+  }
+  .view-cap, .view-container-border{
+    background-color: transparent !important;
   }
 }
 /* Footer styles */
