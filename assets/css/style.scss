@@ -1,17 +1,91 @@
 ---
 ---
-
 @import "{{ site.theme }}";
 
-// TODO custom css here
+/* Table of contents:
+0. Colors & Fonts
+1. Header styles
+2. Body styles
+3. Footer styles
+ */
 
-
-#header_wrap {
-  background-color: green;
+/* Colors and Fonts */
+@font-face {
+  font-family: 'Lovelo';
+  src: url('../fonts/lovelo_black.otf');
+}
+@font-face {
+  font-family: 'Lovelo bold';
+  src: url('../fonts/lovelo_line_bold.otf');
 }
 
-.page-header {
-  background-image: url("/assets/images/logo_render.png");
-  background-repeat: no-repeat;
-  background-position: center;
+$main-pink: #ec008a;
+$hover-pink: #c90076;
+$main-purple: #7b00f9;
+$hover-purple: #4c0099;
+$main-blue: #0c8fdd;
+$hover-blue: #0265a0;
+$main-orange: #ff8c00;
+$hover-orange: #bc6700;
+$main-white: #f4f4f4;
+$main-gray: #444545;
+
+/* Header styles */
+.page-header *{
+  color: $main-gray;
+}
+.page-header{
+  background-color: $main-white;
+  background-image: none;
+  padding-bottom: 1em;
+  .logo{
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-width: 100px;
+    min-height: 50px;
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  h1, h2{
+    color: $main-pink;
+    line-height: 1em;
+  }
+  h1{
+    font-size: 4em;
+    font-family: 'Lovelo bold', sans-serif;
+  }
+  h2{
+    margin-top: 0;
+    font-family: 'Lovelo', sans-serif;
+  }
+  .btn{
+    border-color: $main-gray !important;
+    text-transform: uppercase;
+  }
+  .btn:hover{
+    color: $hover-pink !important;
+    border-color: $hover-pink !important;
+  }
+}
+/* Body styles */
+.main-content{
+  h1{
+    color: $main-blue;
+  }
+  h2{
+    color: $main-purple;
+  }
+  h3, h4, h5, h6{
+    color: $main-pink;
+  }
+  p{
+    color: $main-gray;
+  }
+}
+/* Footer styles */
+.site-footer {
+  text-align: center;
 }
