@@ -7,6 +7,7 @@
 1. Header styles
 2. Body styles
 3. Footer styles
+4. Image styles
  */
 
 /* Colors and Fonts */
@@ -27,17 +28,21 @@ $main-blue: #0c8fdd;
 $hover-blue: #0265a0;
 $main-orange: #ff8c00;
 $hover-orange: #bc6700;
-$main-white: #f4f4f4;
+$main-black: #191919;
 $main-gray: #444545;
+$white: #ffffff;
 
 /* Header styles */
 .page-header *{
-  color: $main-gray;
+  color: $white;
 }
 .page-header{
-  background-color: $main-white;
+  background-color: $main-black;
   background-image: none;
   padding-bottom: 1em;
+  figure img{
+    width: 30%;
+  }
   .logo{
     background-image: url("../images/logo.png");
     background-repeat: no-repeat;
@@ -90,4 +95,99 @@ $main-gray: #444545;
 /* Footer styles */
 .site-footer {
   text-align: center;
+}
+/* Image Styles */
+figcaption{
+  text-align: center;
+  font-style: italic;
+  font-size: 0.8em;
+}
+/* Form styles */
+form{
+  display: block;
+  /*######## Smart Green ########*/
+  &.contactForm{
+    margin-left:auto;
+    margin-right:auto;
+
+    max-width: 500px;
+    background: #F8F8F8;
+    padding: 30px 30px 20px 30px;
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #666;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+  }
+  h1 {
+    font: 1em "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 20px 0px 20px 40px;
+    display: block;
+    margin: -30px -30px 10px -30px;
+    color: #FFF;
+    background: #9DC45F;
+    text-shadow: 1px 1px 1px #949494;
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    border-bottom:1px solid #89AF4C;
+
+  }
+  h1>span {
+    display: block;
+    font-size: 11px;
+    color: #FFF;
+  }
+  label {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+  }
+  label>span {
+    float: left;
+    margin-top: 10px;
+    color: #5E5E5E;
+  }
+  input[type="text"], input[type="email"], textarea, select {
+    color: #555;
+    height: 30px;
+    line-height:15px;
+    width: 100%;
+    padding: 0px 0px 0px 10px;
+    margin: 5px 0px;
+    border: 1px solid #E5E5E5;
+    background: #FBFBFB;
+    outline: 0;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(238, 238, 238, 0.2);
+    box-shadow: inset 1px 1px 2px rgba(238, 238, 238, 0.2);
+    font: normal 14px/14px Arial, Helvetica, sans-serif;
+  }
+  textarea{
+    height:100px;
+    padding-top: 10px;
+  }
+  select {
+    background: url('down-arrow.png') no-repeat right, -moz-linear-gradient(top, #FBFBFB 0%, #E9E9E9 100%);
+    background: url('down-arrow.png') no-repeat right, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FBFBFB), color-stop(100%,#E9E9E9));
+   appearance:none;
+    -webkit-appearance:none;
+   -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width:100%;
+    height:30px;
+  }
+  button {
+    background-color: #9DC45F;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-border-radius: 5px;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #949494;
+  }
+  button:hover {
+    background-color:#80A24A;
+  }
 }

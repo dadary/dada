@@ -4,9 +4,10 @@
   <body>
     <section class="page-header">
       <a href="" class="logo"></a>
-      <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-      <a href="/index.html" class="btn">Posts</a>
+      <!--<h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>-->
+      {% include image.html url="/assets/images/logo2.png"%}
+      <a href="/index.html" class="btn">News</a>
       <a href="/info.html" class="btn">Info</a>
       <a href="/join-dada.html" class="btn">Join DADA</a>
       <a href="/activities.html" class="btn">Activities</a>
@@ -17,7 +18,7 @@
       {{ content }}
 
       <footer class="site-footer">
-        <span>© DADA ry 2017.</span>
+        <span>© DADA ry <script>document.write(new Date().getFullYear())</script></span>
       </footer>
     </section>
 
