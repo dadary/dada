@@ -12,6 +12,8 @@ It’s that time of the year again! DADA’s annual Fall Party and elections for
 
 **What:** Elect the 2018 DADA board and celebrate with your fellow DADA members!
 
+[FBevent](https://www.facebook.com/events/308732462941294)
+
 {% include image.html url="/assets/images/aaniaalto.jpg"%}
 
 So [join us](/join-dada.markdown) today and check out all the cool [events](/activities.markdown)!
