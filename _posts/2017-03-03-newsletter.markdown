@@ -10,9 +10,7 @@ tags:
 ---
 {% include image.html url="/assets/images/springMeeting.jpg" %}
 
-Friday 17th March 16:30 at Vappan Taiteen Tila
-
-# The annual Spring Meeting 2017 of Aalto Media Lab Student Association DADA ry will be held on
+# The annual Spring Meeting 2017 of Aalto Media Lab Student Association DADA ry will be held on Friday 17th March 16:30 at Vappan Taiteen Tila
 
 AGENDA
 
