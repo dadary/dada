@@ -2,19 +2,22 @@
 title: DADA ry
 date: 2017-01-28 20:50:00 +02:00
 ---
-# DADA General Fall Meeting is coming on the 3rd of November 2017!
+{% include image.html url="/assets/images/christmasParty_2017.jpg" %}
 
-It’s that time of the year again! DADA’s annual Fall Party and elections for the new DADA Board are here! Come join us for an evening of sauna, delicious food, delight, drinks, and of course, democracy! We have the rooftop space of Vaasankatu 10 booked, complete with sauna — so bring a towel, bring some drinks, and be ready to vote in your newest board! [FBevent](https://www.facebook.com/events/308732462941294)
+# DADA Christmas Party!
+Isn't it annoying when you're still munching on your Halloween candy and marathoning Ghostbusters, while everyone suddenly puts up their fairy lights and start singing "All I Want For Christmas Is You"?
 
-**When:** November 3rd at 18:00
+Well, guess what. We're here to announce the 2017 DADA Christmas Party. It's going to be pretty rad.
 
-**Where:** Sauna and Cabinet at Vaasankatu 10 00500 Helsinki
+So save the date - 14th December - and try to guess the theme in the meantime.
 
-**What:** Elect the 2018 DADA board and celebrate with your fellow DADA members!
+More details coming soon. Stay tuned!
 
-{% include image.html url="/assets/images/fall_meeting_2017.png"%}
+**When:** December 14th at 19:00
 
-So [join us](/join-dada.markdown) today and check out all the cool [events](/activities.markdown)!
+**Where:** Rantasauna, Jämeräntaival 7, 02150 Espoo, Finland
+
+[Facebook](https://www.facebook.com/events/542388509429448/)
 
 ---
 
