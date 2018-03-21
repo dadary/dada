@@ -1,6 +1,6 @@
 ---
 title: Spring Meeting 2018
-date: 2018-03-019 00:00:00 +02:00
+date: 2018-03-19 00:00:00 +02:00
 categories:
 - post
 - event
